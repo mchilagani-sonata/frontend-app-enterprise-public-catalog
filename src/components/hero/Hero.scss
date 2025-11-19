@@ -10,20 +10,26 @@
   .display-1 {
     @extend .py-3;
     color: $white;
-    max-width: 70%;
+    top: 10%;
+    left: 20%;
+    font-style: italic;
+    max-width: 20%;
+    position: absolute;
+
+    p {
+      font-style: normal;
+    }
   }
+
   div {
     min-height: $banner-min-height;
     max-height: $hero-max-height;
-    height: 100%;
   }
+
   .hero__image {
     min-height: $banner-min-height;
     max-height: $hero-max-height;
-    height: 100%;
-  }
-  .highlighted {
-    color: $accent-b;
+    width: 100%;
   }
 }
 
